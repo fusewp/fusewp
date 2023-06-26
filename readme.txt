@@ -1,9 +1,9 @@
 === FuseWP ===
-Tags: user sync, user roles, automation, mailchimp, constant contact
+Tags: user sync, user roles, automation, mailchimp, constant contact, campaign monitor, memberpress, woocommerce memberships
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.2
-Stable tag: 1.0.0.0
+Stable tag: 2.1.1.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -18,5 +18,15 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
 
-= 1.1.0.0 =
+= 2.1.1.0 =
+* Added [MemberPress integration](https://fusewp.com/article/sync-memberpress-email-marketing/?ref=changelog)
+* Added [Campaign Monitor integration](https://fusewp.com/article/connect-wordpress-to-campaign-monitor/?ref=changelog)
+* Added "any roles" support to user role sync.
+* Fixed bug where mailchimp subscription fails on empty merge fields.
+* PHP 8 improvements.
+* Fixed bug where disabled sync rules might still be triggered.
+* Fixed bug where integration select-dropdown included unconnected integrations.
+* Fixed bug where Add new sync rule page left the menu inactive.
+
+= 2.1.0.0 =
 * The genesis
