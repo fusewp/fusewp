@@ -2,8 +2,8 @@
 Tags: user sync, user roles, automation, mailchimp, constant contact, campaign monitor, memberpress, woocommerce memberships, activecampaign, WooCommerce Subscriptions
 Requires at least: 4.9
 Requires PHP: 7.4
-Tested up to: 6.2
-Stable tag: 2.1.2.0
+Tested up to: 6.3
+Stable tag: 2.1.3.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,14 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.3.0 =
+* Added [LearnDash integration](https://fusewp.com/article/sync-learndash-email-marketing/?ref=changelog)
+* Added [Brevo (Sendinblue integration](https://fusewp.com/article/connect-wordpress-to-brevo/?ref=changelog)
+* Add support for syncing MemberPress profile updates.
+* Added support for syncing WooCommerce My Account user updates.
+* Added support for mapping WooCommerce checkout fields during sync setup.
+* Fixed fatal error in MemberPress sync integration.
 
 = 2.1.2.0 =
 * Added [WooCommerce Subscriptions integration](https://fusewp.com/article/sync-woocommerce-subscriptions-email-marketing/?ref=changelog)
