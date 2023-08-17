@@ -19,21 +19,21 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 == Changelog ==
 
 = 2.1.3.0 =
-* Added [LearnDash integration](https://fusewp.com/article/sync-learndash-email-marketing/?ref=changelog)
-* Added [Brevo (Sendinblue integration](https://fusewp.com/article/connect-wordpress-to-brevo/?ref=changelog)
+* Added [LearnDash integration](https://fusewp.com/article/sync-learndash-email-marketing/?ref=prochangelog)
+* Added [Brevo (Sendinblue integration)](https://fusewp.com/article/connect-wordpress-to-brevo/?ref=prochangelog)
 * Add support for syncing MemberPress profile updates.
 * Added support for syncing WooCommerce My Account user updates.
 * Added support for mapping WooCommerce checkout fields during sync setup.
 * Fixed fatal error in MemberPress sync integration.
 
 = 2.1.2.0 =
-* Added [WooCommerce Subscriptions integration](https://fusewp.com/article/sync-woocommerce-subscriptions-email-marketing/?ref=changelog)
-* Added [ActiveCampaign integration](https://fusewp.com/article/connect-wordpress-to-activecampaign/?ref=changelog)
+* Added [WooCommerce Subscriptions integration](https://fusewp.com/article/sync-woocommerce-subscriptions-email-marketing/?ref=prochangelog)
+* Added [ActiveCampaign integration](https://fusewp.com/article/connect-wordpress-to-activecampaign/?ref=prochangelog)
 * Fixed bug where an empty error could be logged.
 
 = 2.1.1.0 =
-* Added [MemberPress integration](https://fusewp.com/article/sync-memberpress-email-marketing/?ref=changelog)
-* Added [Campaign Monitor integration](https://fusewp.com/article/connect-wordpress-to-campaign-monitor/?ref=changelog)
+* Added [MemberPress integration](https://fusewp.com/article/sync-memberpress-email-marketing/?ref=prochangelog)
+* Added [Campaign Monitor integration](https://fusewp.com/article/connect-wordpress-to-campaign-monitor/?ref=prochangelog)
 * Added "any roles" support to user role sync.
 * Fixed bug where mailchimp subscription fails on empty merge fields.
 * PHP 8 improvements.
