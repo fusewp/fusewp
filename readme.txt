@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.3
-Stable tag: 2.1.3.0
+Stable tag: 2.1.4.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,12 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.4.0 =
+* Added [Paid Memberships Pro integration](https://fusewp.com/article/sync-paid-memberships-pro-email-marketing/?ref=prochangelog)
+* Added [AWeber integration](https://fusewp.com/article/connect-wordpress-to-brevo/?ref=prochangelog)
+* Fixed bug where contacts might be unsubscribed when they should be subscribed.
+* Fixed bug where ActiveCampaign jobTitle value could be Array.
 
 = 2.1.3.0 =
 * Added [LearnDash integration](https://fusewp.com/article/sync-learndash-email-marketing/?ref=prochangelog)
