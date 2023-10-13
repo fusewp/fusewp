@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.3
-Stable tag: 2.1.4.0
+Stable tag: 2.1.5.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -18,9 +18,17 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
 
+= 2.1.5.0 =
+* Added [LifterLMS integration](https://fusewp.com/article/sync-lifterlms-email-marketing/?ref=prochangelog).
+* Added [Sendy integration](https://fusewp.com/article/connect-wordpress-to-sendy/?ref=prochangelog).
+* Added [Constant Contact - Custom App](https://fusewp.com/article/connect-wordpress-to-constant-contact/?ref=prochangelog#Connecting_Constant_Contact_via_Custom_App) integration.
+* Sync support for Ultimate Member.
+* Fixed bug with AWeber not updating a subscriber that exists.
+* Fixed memory issue on user sync table display.
+
 = 2.1.4.0 =
-* Added [Paid Memberships Pro integration](https://fusewp.com/article/sync-paid-memberships-pro-email-marketing/?ref=prochangelog)
-* Added [AWeber integration](https://fusewp.com/article/connect-wordpress-to-aweber/?ref=prochangelog)
+* Added [Paid Memberships Pro integration](https://fusewp.com/article/sync-paid-memberships-pro-email-marketing/?ref=prochangelog).
+* Added [AWeber integration](https://fusewp.com/article/connect-wordpress-to-aweber/?ref=prochangelog).
 * Fixed bug where contacts might be unsubscribed when they should be subscribed.
 * Fixed bug where ActiveCampaign jobTitle value could be Array.
 
