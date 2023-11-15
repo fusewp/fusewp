@@ -2,8 +2,8 @@
 Tags: user sync, user roles, automation, mailchimp, constant contact, campaign monitor, memberpress, woocommerce memberships, activecampaign, WooCommerce Subscriptions
 Requires at least: 4.9
 Requires PHP: 7.4
-Tested up to: 6.3
-Stable tag: 2.1.5.0
+Tested up to: 6.4
+Stable tag: 2.1.6.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,9 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.6.0 =
+* Added Bulk-sync feature for syncing historical/existing records.
 
 = 2.1.5.0 =
 * Added [LifterLMS integration](https://fusewp.com/article/sync-lifterlms-email-marketing/?ref=prochangelog).
