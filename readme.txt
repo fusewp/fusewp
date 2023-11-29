@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.4
-Stable tag: 2.1.6.0
+Stable tag: 2.1.7.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,11 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.7.0 =
+* Added [HubSpot integration](https://fusewp.com/article/connect-wordpress-to-hubspot/?ref=prochangelog).
+* Added [ProfilePress integration](https://fusewp.com/article/sync-profilepress-email-marketing/?ref=prochangelog).
+* Added [Restrict Content Pro integration](https://fusewp.com/article/sync-restrict-content-pro-email-marketing/?ref=prochangelog).
 
 = 2.1.6.0 =
 * Added Bulk-sync feature for syncing historical/existing records.
