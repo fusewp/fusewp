@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.4
-Stable tag: 2.1.7.0
+Stable tag: 2.1.8.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,19 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.8.0 =
+* Added [ConvertKit integration](https://fusewp.com/article/connect-wordpress-to-convertkit/?ref=prochangelog).
+* Added [ACF integration](https://fusewp.com/article/advanced-custom-fields/?ref=prochangelog).
+* Added "ANY" criteria to supported sources.
+* Added sync support when user role changes.
+* Added bulk action to delete all logs.
+* Added user and integration sync on profile update.
+* Added Memberpress ReadyLaunch support.
+* Added rate limiting to CC custom app to avoid constant token refresh requests.
+* Fixed bug with MemberPress checkboxes field not syncing.
+* Fixed bug with CC custom app not correctly refreshing token.
+
 
 = 2.1.7.0 =
 * Added [HubSpot integration](https://fusewp.com/article/connect-wordpress-to-hubspot/?ref=prochangelog).
