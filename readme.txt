@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.4
-Stable tag: 2.1.8.0
+Stable tag: 2.1.8.1
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,9 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.8.1 =
+* Fixed PHP fatal error on user role sync.
 
 = 2.1.8.0 =
 * Added [ConvertKit integration](https://fusewp.com/article/connect-wordpress-to-convertkit/?ref=prochangelog).
