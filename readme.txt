@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.4
-Stable tag: 2.1.8.1
+Stable tag: 2.1.9.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,15 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.9.0 =
+* Added [WooCommerce Sync](https://fusewp.com/article/sync-woocommerce-email-marketing/?ref=prochangelog).
+* Added [Klaviyo integration](https://fusewp.com/article/connect-wordpress-to-klaviyo/?ref=prochangelog).
+* Added [Flodesk integration](https://fusewp.com/article/connect-wordpress-to-flodesk/?ref=prochangelog).
+* Use tagging for segmentation in ConvertKit.
+* Declared HPOS support for WooCommerce.
+* Added ANY source rule support for bulk sync.
+* Fixed a couple of PHP Warnings.
 
 = 2.1.8.1 =
 * Fixed PHP fatal error on user role sync.
