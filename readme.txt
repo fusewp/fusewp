@@ -2,8 +2,8 @@
 Tags: user sync, user roles, automation, mailchimp, constant contact, campaign monitor, memberpress, woocommerce memberships, activecampaign, WooCommerce Subscriptions
 Requires at least: 4.9
 Requires PHP: 7.4
-Tested up to: 6.4
-Stable tag: 2.1.9.0
+Tested up to: 6.5
+Stable tag: 2.1.10.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,26 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.10.0 =
+* Added more WooComerce Order data for field mapping.
+* Added subscription data from WooCommerce Subscriptions for field mapping.
+* Added membership data from WooCommerce Memberships for field mapping.
+* Added extra subscription and transaction data from MemberPress for field mapping.
+* Added subscription data from ProfilePress for field mapping.
+* Added membership data from Paid Memberships Pro for field mapping.
+* Added course/group data from LearnDash for field mapping.
+* Added course/membership data from LifterLMS for field mapping.
+* Added Corporate Account Type from MemberPress for field mapping
+* Added WooCommerce guest checkout sync support.
+* Fixed bug where ANY level rule didn’t work for Paid Memberships Pro sync.
+* Fixed bug where Klaviyo only returned 10 lists.
+* Fixed bug where multi select field was not clearing in Campaign Monitor Sync.
+* Added setting to enable/disable external sync on profile update.
+* Added filter to bulk sync record limit.
+* Ensure Klaviyo adds users to the correct list even if they already exist as profiles.
+* Fixed bug with sync causing issues when users are added from wp-admin.
+* Fixed PHP Warning: Attempt to read property "ID" on bool.
 
 = 2.1.9.0 =
 * Added [WooCommerce Sync](https://fusewp.com/article/sync-woocommerce-email-marketing/?ref=prochangelog).
