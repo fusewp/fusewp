@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.5
-Stable tag: 2.1.10.0
+Stable tag: 2.1.10.1
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,9 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.10.1 =
+* Fixed bug where hubspot fails to add contact to list.
 
 = 2.1.10.0 =
 * Added more WooComerce Order data for field mapping.
