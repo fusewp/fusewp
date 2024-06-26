@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.5
-Stable tag: 2.1.11.0
+Stable tag: 2.1.12.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,13 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.12.0 =
+* Added [Zoho CRM integration](https://fusewp.com/article/connect-wordpress-to-zoho-crm/?ref=prochangelog).
+* Added [Easy Digital Downloads integration](https://fusewp.com/article/sync-easy-digital-downloads-email-marketing/?ref=prochangelog).
+* Added WooCommerce product IDs and names to field mapping data.
+* Added context to error logs.
+* Fixed bug where bulk-sync processed items from newest to oldest instead of the opposite.
 
 = 2.1.11.0 =
 * Added [MailerLite integration](https://fusewp.com/article/connect-wordpress-to-mailerlite/?ref=prochangelog).
