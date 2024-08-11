@@ -2,8 +2,8 @@
 Tags: user sync, user roles, automation, mailchimp, constant contact, campaign monitor, memberpress, woocommerce memberships, activecampaign, WooCommerce Subscriptions
 Requires at least: 4.9
 Requires PHP: 7.4
-Tested up to: 6.5
-Stable tag: 2.1.13.0
+Tested up to: 6.6
+Stable tag: 2.1.14.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,17 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.14.0 =
+* Added [Gravity Forms integration](https://fusewp.com/article/sync-gravity-forms-email-marketing/?ref=prochangelog).
+* Added [GetResponse integration](https://fusewp.com/article/connect-wordpress-to-getresponse/?ref=prochangelog).
+* Added [Mailjet integration](https://fusewp.com/article/connect-wordpress-to-mailjet/?ref=prochangelog).
+* Added tag as segmentation support to Mailchimp integration.
+* Fixed bug where some CRM integrations didn't fetch all lists, tags, and custom fields.
+* Fixed N+1 DB query issue by introducing Source Item row to Sync rule page.
+* Fixed bug where Mailchimp integration can empty out subscriber tags.
+* Added caching to the AWeber email list and custom field methods.
+* Reduced Bulksync cron schedule from 5 to 1mins.
 
 = 2.1.13.0 =
 * Added [EmailOctopus integration](https://fusewp.com/article/connect-wordpress-to-emailoctopus/?ref=prochangelog).
