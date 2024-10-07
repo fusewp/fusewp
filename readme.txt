@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.6
-Stable tag: 2.1.14.0
+Stable tag: 2.1.15.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,18 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.15.0 =
+* Added [WPForms integration](https://fusewp.com/article/sync-wpforms-email-marketing/?ref=prochangelog).
+* Added Queue system for processing sync actions.
+* Improve bulk-syncing by showing processing status and skipping processed records.
+* Added coupon ID and code to MemberPress field mapping data.
+* Added fusewp_should_process_sync_immediately filter.
+* Enhancement: Add data as custom properties in Klaviyo without a mapped corresponding field.
+* Fixed a bug where the Gravity Form Leead Email Address field was showing for other integrations.
+* Fixed bug where empty field value didn't update in HubSpot.
+* Fixed bug with fusewpEmail included in sync payload.
+* Remove deprecated jQuery codes.
 
 = 2.1.14.0 =
 * Added [Gravity Forms integration](https://fusewp.com/article/sync-gravity-forms-email-marketing/?ref=prochangelog).
