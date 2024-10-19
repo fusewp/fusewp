@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.6
-Stable tag: 2.1.15.0
+Stable tag: 2.1.16.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,11 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.16.0 =
+* Added [Tutor LMS integration](https://fusewp.com/article/sync-tutor-lms-email-marketing/?ref=prochangelog).
+* Added [FluentCRM integration](https://fusewp.com/article/connect-wordpress-to-fluentcrm/?ref=prochangelog).
+* Improve queue system to prevent unsubscription and resubscription loop.
 
 = 2.1.15.0 =
 * Added [WPForms integration](https://fusewp.com/article/sync-wpforms-email-marketing/?ref=prochangelog).
