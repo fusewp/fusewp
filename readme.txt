@@ -2,8 +2,8 @@
 Tags: user sync, user roles, automation, mailchimp, constant contact, campaign monitor, memberpress, woocommerce memberships, activecampaign, WooCommerce Subscriptions
 Requires at least: 4.9
 Requires PHP: 7.4
-Tested up to: 6.6
-Stable tag: 2.1.16.0
+Tested up to: 6.7
+Stable tag: 2.1.16.1
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,11 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.16.1 =
+* Added tool for cleaning up bulk sync queued jobs.
+* Improved caching of HubSpot API data to avoid rate limiting.
+* Fixed bug with incorrect insertion of ob_start().
 
 = 2.1.16.0 =
 * Added [Tutor LMS integration](https://fusewp.com/article/sync-tutor-lms-email-marketing/?ref=prochangelog).
