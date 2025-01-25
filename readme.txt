@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.7
-Stable tag: 2.1.17.0
+Stable tag: 2.1.17.1
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,13 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.17.1 =
+* Added support for Klaviyo custom property field mapping via code.
+* Fixed bug with Flodesk during bulk-sync due to invalid IP.
+* Fixed bug where Brevo might not correctly add users to list.
+* Fixed DB error.
+* Improved MemberPress bulk-syncing.
 
 = 2.1.17.0 =
 * Added [Keap integration](https://fusewp.com/article/connect-wordpress-to-keap/?ref=prochangelog).
