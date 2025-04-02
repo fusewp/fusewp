@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.7
-Stable tag: 2.1.17.1
+Stable tag: 2.1.18.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,15 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.18.0 =
+* Added [Google Sheets integration](https://fusewp.com/article/connect-wordpress-with-google-sheets/?ref=prochangelog).
+* Added [Encharge integration](https://fusewp.com/article/connect-wordpress-to-encharge/?ref=prochangelog).
+* Added WPForo integration.
+* Added payment subscription syncing support for WPForms.
+* Added search to sync log page.
+* Increased lifespan of AWeber caches.
+* Increase ActiveCampaign tag fetching limit to 1k.
 
 = 2.1.17.1 =
 * Added support for Klaviyo custom property field mapping via code.
