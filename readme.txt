@@ -2,8 +2,8 @@
 Tags: user sync, user roles, automation, mailchimp, constant contact, campaign monitor, memberpress, woocommerce memberships, activecampaign, WooCommerce Subscriptions
 Requires at least: 4.9
 Requires PHP: 7.4
-Tested up to: 6.7
-Stable tag: 2.1.18.0
+Tested up to: 6.8
+Stable tag: 2.1.19.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,16 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.19.0 =
+* Added [GiveWP integration](https://fusewp.com/article/sync-givewp-email-marketing/?ref=prochangelog).
+* Added [Salesforce integration](https://fusewp.com/article/connect-wordpress-with-salesforce/?ref=prochangelog).
+* Added [beehiiv integration](https://fusewp.com/article/connect-wordpress-to-beehiiv/?ref=prochangelog).
+* Added product_attributes to WooCommerce mappable data.
+* Added logging of failed queue jobs.
+* Added filter flag to enable adding Klaviyo profile to Lists without explicit consent.
+* Fixed: Function _load_textdomain_just_in_time was called incorrectly.
+* Fixed bug in IP address detection.
 
 = 2.1.18.0 =
 * Added [Google Sheets integration](https://fusewp.com/article/connect-wordpress-with-google-sheets/?ref=prochangelog).
