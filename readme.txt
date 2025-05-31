@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 4.9
 Requires PHP: 7.4
 Tested up to: 6.8
-Stable tag: 2.1.19.0
+Stable tag: 2.1.20.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,20 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.20.0 =
+* Added [Contact forms 7 integration](https://fusewp.com/article/sync-contact-form-7-email-marketing/?ref=prochangelog).
+* Added [Academy LMS integration](https://fusewp.com/article/sync-academy-lms-email-marketing/?ref=prochangelog).
+* Added [Paid Member Subscriptions integration](https://fusewp.com/article/sync-paid-member-subscriptions-email-marketing/?ref=prochangelog).
+* Added [Profile Builder Integration](https://fusewp.com/article/connect-profile-builder-email-marketing-software/?ref=prochangelog).
+* Added [Ortto integration](https://fusewp.com/article/connect-wordpress-to-ortto/?ref=prochangelog).
+* Added [Mailpoet integration](https://fusewp.com/article/connect-wordpress-to-mailpoet/?ref=prochangelog).
+* Fixed bug where sync for plugin integrations didn't work.
+* Optimized queue popping query so over-attempted jobs don't stop the queue.
+* Skip Klaviyo phone number if of invalid format.
+* Fixed sync failure due to empty Klaviyo address field data.
+* Fixed search not working correctly on the Sync Log page.
+* Added fusewp_bulk_sync_cache_enabled filter to disable bulk-sync cache.
 
 = 2.1.19.0 =
 * Added [GiveWP integration](https://fusewp.com/article/sync-givewp-email-marketing/?ref=prochangelog).
