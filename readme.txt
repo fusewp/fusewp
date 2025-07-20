@@ -1,9 +1,9 @@
 === FuseWP ===
 Tags: user sync, user roles, automation, mailchimp, constant contact, campaign monitor, memberpress, woocommerce memberships, activecampaign, WooCommerce Subscriptions
-Requires at least: 4.9
+Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 6.8
-Stable tag: 2.1.20.0
+Stable tag: 2.1.21.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,14 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.21.0 =
+* Added [WP Travel Engine integration](https://fusewp.com/article/sync-wp-travel-engine-email-marketing/?ref=prochangelog).
+* Added [Fluent Forms integration](https://fusewp.com/article/sync-fluent-forms-email-marketing/?ref=prochangelog).
+* Added [Forminator integration](https://fusewp.com/article/sync-forminator-email-marketing/?ref=prochangelog).
+* Added [Sender.net integration](https://fusewp.com/article/connect-wordpress-to-sender/?ref=prochangelog).
+* Added [Groundhogg integration](https://fusewp.com/article/connect-wordpress-to-groundhogg/?ref=prochangelog).
+* Fixed bug with EDD user registration due to sync.
 
 = 2.1.20.0 =
 * Added [Contact forms 7 integration](https://fusewp.com/article/sync-contact-form-7-email-marketing/?ref=prochangelog).
