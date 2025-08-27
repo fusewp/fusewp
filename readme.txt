@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 6.8
-Stable tag: 2.1.21.0
+Stable tag: 2.1.22.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,13 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.22.0 =
+* Added [Ninja Forms integration](https://fusewp.com/article/sync-ninja-forms-email-marketing/?ref=prochangelog).
+* Added [Formidable Forms integration](https://fusewp.com/article/sync-formidable-forms-email-marketing/?ref=prochangelog).
+* Added [Everest Forms integration](https://fusewp.com/article/sync-everest-forms-email-marketing/?ref=prochangelog).
+* Added [Sensei LMS integration](https://fusewp.com/article/sync-sensei-lms-email-marketing/?ref=prochangelog).
+* Added [Masterstudy LMS integration](https://fusewp.com/article/sync-masterstudy-lms-email-marketing/?ref=prochangelog).
 
 = 2.1.21.0 =
 * Added [WP Travel Engine integration](https://fusewp.com/article/sync-wp-travel-engine-email-marketing/?ref=prochangelog).
