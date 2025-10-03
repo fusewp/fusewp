@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 6.8
-Stable tag: 2.1.22.0
+Stable tag: 2.1.23.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,15 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.23.0 =
+* Added [SureForms integration](https://fusewp.com/article/sync-sureforms-email-marketing/?ref=changelog).
+* Added [WS Form integration](https://fusewp.com/article/sync-wsform-email-marketing/?ref=changelog).
+* Added [FluentCommunity integration](https://fusewp.com/article/sync-fluentcommunity-email-marketing/?ref=changelog).
+* Added [AffiliateWP integration](https://fusewp.com/article/sync-affiliatewp-email-marketing/?ref=changelog).
+* Added [SliceWP integration](https://fusewp.com/article/sync-slicewp-email-marketing/?ref=changelog).
+* Added fusewp_sync_mailchimp_api_key filter.
+* Fixed token refresh not working for Zoho for non-US accounts.
 
 = 2.1.22.0 =
 * Added [Ninja Forms integration](https://fusewp.com/article/sync-ninja-forms-email-marketing/?ref=prochangelog).
