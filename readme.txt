@@ -20,8 +20,9 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 = 2.1.24.1 =
 * Added a mechanism for retrying jobs on failure.
-* Increased beehiiv api timeout to 60secs
-* Added a second throttle to beehiiv api during bulksync
+* Increased beehiiv api timeout to 60secs.
+* Added a second throttle to beehiiv api during bulksync.
+* Fixed bug with html entities present in MemberPress plan names.
 
 = 2.1.24.0 =
 * Upgraded HubSpot integration fully to v3 API.
