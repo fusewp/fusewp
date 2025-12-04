@@ -2,8 +2,8 @@
 Tags: user sync, user roles, automation, mailchimp, constant contact, campaign monitor, memberpress, woocommerce memberships, activecampaign, WooCommerce Subscriptions
 Requires at least: 6.0
 Requires PHP: 7.4
-Tested up to: 6.8
-Stable tag: 2.1.24.0
+Tested up to: 6.9
+Stable tag: 2.1.24.1
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -18,10 +18,15 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
 
+= 2.1.24.1 =
+* Added a mechanism for retrying jobs on failure.
+* Increased beehiiv api timeout to 60secs
+* Added a second throttle to beehiiv api during bulksync
+
 = 2.1.24.0 =
 * Upgraded HubSpot integration fully to v3 API.
 * Fixed bug where Kit attempted to add tag to subscriber without an email.
-* Fixed HubSpot cache clearing bug
+* Fixed HubSpot cache clearing bug.
 * Performance improvements to reduce memory usage.
 
 = 2.1.23.1 =
