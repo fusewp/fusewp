@@ -19,8 +19,7 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 == Changelog ==
 
 = 2.1.24.2 =
-* Added a mechanism for retrying jobs on failure.
-* Add a 1-second throttle to sender.net api during bulk-sync.
+* Added a 1-second throttle to sender.net api during bulk-sync.
 * Added list as a segmentation option to GetResponse integration.
 * Added fusewp_beehiiv_is_unsubscribe_user filter.
 * Fixed bug where dayOfCycle is missing in GetResponse subscribe params.
