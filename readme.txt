@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 6.9
-Stable tag: 2.1.24.1
+Stable tag: 2.1.24.2
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,15 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.24.2 =
+* Added a mechanism for retrying jobs on failure.
+* Add a 1-second throttle to sender.net api during bulk-sync.
+* Added list as a segmentation option to GetResponse integration.
+* Added fusewp_beehiiv_is_unsubscribe_user filter.
+* Fixed bug where dayOfCycle is missing in GetResponse subscribe params.
+* Fixed bug where Flodesk integration didn’t return all segments.
+* Fixed bug where sender.net only returned 10 groups.
 
 = 2.1.24.1 =
 * Added a mechanism for retrying jobs on failure.
