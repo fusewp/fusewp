@@ -2,8 +2,8 @@
 Tags: user sync, user roles, automation, mailchimp, constant contact, campaign monitor, memberpress, woocommerce memberships, activecampaign, WooCommerce Subscriptions
 Requires at least: 6.0
 Requires PHP: 7.4
-Tested up to: 6.9
-Stable tag: 2.1.24.2
+Tested up to: 7.0
+Stable tag: 2.1.24.3
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,10 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.24.3 =
+* Improved admin UI for WP 7
+* Fixed bug with Salesforce connection.
 
 = 2.1.24.2 =
 * Added a 1-second throttle to sender.net api during bulk-sync.
