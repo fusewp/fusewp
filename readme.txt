@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 7.0
-Stable tag: 2.1.24.3
+Stable tag: 2.1.25.1
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -18,9 +18,18 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
 
-= 2.1.24.3 =
+= 2.1.25.1 =
 * Improved admin UI for WP 7
 * Fixed bug with Salesforce connection.
+
+= 2.1.25.0 =
+* Added [SendPulse integration](https://fusewp.com/article/connect-wordpress-to-sendpulse/?ref=changelog).
+* Added [Mailercloud integration](https://fusewp.com/article/connect-wordpress-to-mailercloud/?ref=changelog).
+* Added [Bento integration](https://fusewp.com/article/connect-wordpress-to-bento/?ref=changelog).
+* Added [Engage.so integration](https://fusewp.com/article/connect-wordpress-to-engage/?ref=changelog).
+* Added [Birdsend integration](https://fusewp.com/article/connect-wordpress-to-birdsend/?ref=changelog).
+* Improved reliability of sync by adding better support for delayed sync.
+* Fixed PHP fatal errors when integrated plugin becomes inactive.
 
 = 2.1.24.2 =
 * Added a 1-second throttle to sender.net api during bulk-sync.
