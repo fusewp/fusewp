@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 7.0
-Stable tag: 2.1.25.1
+Stable tag: 2.1.25.2
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,13 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.25.2 =
+* Fixed CSRF vulnerability in toggle_sync_status AJAX handler.
+* Fixed: Warning: Attempt to read property "roles" on bool.
+* Fixed: Fatal error: Uncaught TypeError: Illegal offset type.
+* Fixed bug where custom field mapping data can be missing.
+* Improvement: sync retry now after one hour, not after a minute.
 
 = 2.1.25.1 =
 * Improved admin UI for WP 7
