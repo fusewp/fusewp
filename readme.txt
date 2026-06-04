@@ -19,7 +19,7 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 == Changelog ==
 
 = 2.1.25.3 =
-* Updated klaviyo api version to 2026-04-15
+* Updated klaviyo API version to 2026-04-15
 * Fixed MemberPress bug that syncs active members as having inactive membership.
 
 = 2.1.25.2 =
