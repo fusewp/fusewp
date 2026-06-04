@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 7.0
-Stable tag: 2.1.25.2
+Stable tag: 2.1.25.3
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,10 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.25.3 =
+* Updated klaviyo api version to 2026-04-15
+* Fixed MemberPress bug that syncs active members as having inactive membership.
 
 = 2.1.25.2 =
 * Fixed CSRF vulnerability in toggle_sync_status AJAX handler.
