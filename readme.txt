@@ -21,6 +21,7 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 = 2.1.26.0 =
 * Added [Copper CRM integration](https://fusewp.com/article/connect-wordpress-to-copper-crm/?ref=changelog).
 * Fixed bulk-sync bug in MemberPress not correctly syncing trial/active subs.
+* Fixed bulk-sync bug in MemberPress not correctly syncing expiration date.
 * Removed "Enable Other Sync on Profile Update" setting.
 * Added fusewp_remove_unsubscribe_sync_jobs_with_resubscribe_action filter.
 * Fixed EmailOctopus sync bug due to empty tag/fields data.
