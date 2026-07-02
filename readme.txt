@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 7.0
-Stable tag: 2.1.25.3
+Stable tag: 2.1.26.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,14 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.26.0 =
+* Added [Copper CRM integration](https://fusewp.com/article/connect-wordpress-to-copper-crm/?ref=changelog).
+* Fixed bulk-sync bug in MemberPress not correctly syncing trial/active subs.
+* Removed "Enable Other Sync on Profile Update" setting.
+* Added fusewp_remove_unsubscribe_sync_jobs_with_resubscribe_action filter.
+* Fixed EmailOctopus sync bug due to empty tag/fields data.
+* Improved beehiiv api class to respect rate limit headers.
 
 = 2.1.25.3 =
 * Updated klaviyo API version to 2026-04-15
