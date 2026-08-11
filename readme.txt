@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 7.0
-Stable tag: 2.1.26.0
+Stable tag: 2.1.26.1
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,13 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.26.1 =
+* Fixed bulk-sync not working for woosub if HPOS is enabled.
+* Fixed:  Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array.
+* Added fusewp_sync_email_address filter in Formidable Forms sync.
+* Added filter: fusewp_sync_email_address.
+* Clear bulk-sync cache when the sync queue is deleted.
 
 = 2.1.26.0 =
 * Added [Copper CRM integration](https://fusewp.com/article/connect-wordpress-to-copper-crm/?ref=changelog).
