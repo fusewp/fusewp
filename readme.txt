@@ -1,9 +1,9 @@
 === FuseWP ===
 Tags: user sync, user roles, automation, mailchimp, constant contact, campaign monitor, memberpress, woocommerce memberships, activecampaign, WooCommerce Subscriptions
-Requires at least: 6.0
-Requires PHP: 7.4
-Tested up to: 7.0
-Stable tag: 2.1.26.1
+Requires at least: 6.9
+Requires PHP: 8.0
+Tested up to: 7.1
+Stable tag: 2.1.27.0
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,14 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.27.0 =
+* Added Opt-in checkbox: only sync contacts who consented.
+* Added User Registration plugin integration
+* Added UsersWP plugin integration.
+* Updated HubSpot API version to 2026-09.
+* SliceWP sync: skip affiliate saves that don't change the status.
+* WP Travel Engine sync: fix the booking events' fatal error and syncs with no email.
 
 = 2.1.26.1 =
 * Fixed bulk-sync not working for woosub if HPOS is enabled.
