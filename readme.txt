@@ -3,7 +3,7 @@ Tags: user sync, user roles, automation, mailchimp, constant contact, campaign m
 Requires at least: 6.9
 Requires PHP: 8.0
 Tested up to: 7.1
-Stable tag: 2.1.27.0
+Stable tag: 2.1.27.1
 License: GPL-2.0+
 
 Sync WordPress users with your email marketing software
@@ -17,6 +17,14 @@ Sync WordPress users with your email marketing software
 Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
+
+= 2.1.27.1 =
+* Security: Added a nonce and capability check to the review-notice dismissal handler.
+* Security: Only administrators can now dismiss FuseWP admin notices.
+* Security: A failed license-upgrade request no longer cancels an admin's pending upgrade token.
+* Security: Hardened WS Form bulk sync so stored submission data can no longer create PHP objects.
+* Fixed a fatal error when the license upgrader received array input.
+* Thanks to Nathan Cross (CyberBadger) for responsibly disclosing these issues.
 
 = 2.1.27.0 =
 * Added Opt-in checkbox: only sync contacts who consented.
