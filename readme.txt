@@ -19,6 +19,7 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 == Changelog ==
 
 = 2.1.27.1 =
+* Updated Salesforce API to version 68.0
 * Security: Added a nonce and capability check to the review-notice dismissal handler.
 * Security: Only administrators can now dismiss FuseWP admin notices.
 * Security: A failed license-upgrade request no longer cancels an admin's pending upgrade token.
