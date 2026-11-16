@@ -36,7 +36,7 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 * Added automation triggers for WooCommerce, WooCommerce Subscriptions, Easy Digital Downloads, FluentCart, SureCart, WP Simple Pay, membership, LMS, booking, event, donation, affiliate, wishlist and BuddyPress plugins, coupons, schedules, dates, inactivity and incoming webhooks.
 * Added Goal, Start and Remove from another automation, CRM (update contact, move list, add to automation, note, deal, task, event), Slack, order, subscription and membership plan steps.
 * Added abandoned cart recovery for WooCommerce and Easy Digital Downloads.
-* Added the drag-and-drop email builder, templates and saved blocks, product, cart, order and coupon email blocks, personal coupons and store credit (WooCommerce Smart Coupons).
+* Added the drag-and-drop email builder, templates and saved blocks, product, cart, order, coupon and countdown timer email blocks, personal coupons and store credit (WooCommerce Smart Coupons).
 * Added segments, link click reports, revenue tracking, failure alerts, send windows and automation export/import.
 
 = 2.1.27.1 =
