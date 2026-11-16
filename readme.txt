@@ -18,6 +18,27 @@ Please visit the [plugin page](https://fusewp.com/) with any questions.
 
 == Changelog ==
 
+= 2.2.0.0 =
+* Added Automations: workflows that start on a form sign-up, user registration, profile update, role change, marketing opt-in or opt-out, or a published post, with delays, If/Else conditions, emails, tags, lists, custom fields, CRM, webhook, user role and custom code steps.
+* Added automation recipes, folders, test runs, run history and CSV export of runs; steps can be turned off or dragged to reorder.
+* Added Contacts: tags, lists, custom fields, activity history, CSV import and export, and adding or editing contacts by hand.
+* Added Sign-up Forms: a block, shortcode and widget, automatic placement in posts and pages (after a chosen paragraph or at the end), popups and slide-ins, with double opt-in and a welcome email.
+* Added Broadcasts: send a one-off email to a list, tag or user role, now or scheduled.
+* Added email reports: sends, opens, clicks and unsubscribes for every automation and broadcast.
+* Added an email preferences page where subscribers choose their emails, say why they unsubscribe, or keep only the newsletters.
+* Added a suppression list: bounced, complained and fully unsubscribed addresses are never emailed.
+* Added optional UTM tags for links in automation and broadcast emails.
+* Added staging protection: a copy of your site never emails customers or syncs to your CRM.
+* Added Modules (turn Automations and Email on or off) and a first-run setup.
+* Added Kit (Latest) integration on Kit's v4 API, with a one-click move of sync rules and automations from Kit (ConvertKit).
+* Added Elementor Forms (Elementor Pro) and Kadence Forms sync.
+* Improved: each integration runs a real connection check, and bulk sync skips destinations that aren't connected.
+* Added automation triggers for WooCommerce, WooCommerce Subscriptions, Easy Digital Downloads, FluentCart, SureCart, WP Simple Pay, membership, LMS, booking, event, donation, affiliate, wishlist and BuddyPress plugins, coupons, schedules, dates, inactivity and incoming webhooks.
+* Added Goal, Start and Remove from another automation, CRM (update contact, move list, add to automation, note, deal, task, event), Slack, order, subscription and membership plan steps.
+* Added abandoned cart recovery for WooCommerce and Easy Digital Downloads.
+* Added the drag-and-drop email builder, templates and saved blocks, product, cart, order and coupon email blocks, personal coupons and store credit (WooCommerce Smart Coupons).
+* Added segments, link click reports, revenue tracking, failure alerts, send windows and automation export/import.
+
 = 2.1.27.1 =
 * Updated Salesforce API to version 68.0
 * Security: Added a nonce and capability check to the review-notice dismissal handler.
